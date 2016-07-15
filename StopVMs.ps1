@@ -2,4 +2,4 @@
  Add-AzureRMAccount -ServicePrincipal -Tenant $Conn.TenantID `
  -ApplicationId $Conn.ApplicationID -CertificateThumbprint $Conn.CertificateThumbprint
  
- Start-AzureRmVM -Name 'UbuntuPlayground' -ResourceGroupName 'OSSWorld'
+ Stop-AzureRmVM -Name 'UbuntuPlayground' -ResourceGroupName 'OSSWorld'
