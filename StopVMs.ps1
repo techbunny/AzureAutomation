@@ -7,3 +7,7 @@
  Stop-AzureRmVM -Name 'JenkSlave0vm' -ResourceGroupName 'Jenkins' -Force
  Stop-AzureRmVM -Name 'LinuxA' -ResourceGroupName 'PeeringLab' -Force
  Stop-AzureRmVM -Name 'LinuxB' -ResourceGroupName 'PeeringLab' -Force
+ Stop-AzureRmVM -Name 'ImperfectSrv01' -ResourceGroupName 'ImperfectLab' -Force
+ Stop-AzureRmVM -Name 'ImperfectLabN2' -ResourceGroupName 'ImperfectLab' -Force
+ Stop-AzureRmVM -Name 'ImperfectDC01' -ResourceGroupName 'ImperfectLab' -Force
+ Stop-AzureRmVM -Name 'ImperfectDNS' -ResourceGroupName 'ImperfectLab' -Force
